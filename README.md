@@ -1,53 +1,53 @@
 # Folder Structure 
 # Create root project directory
-mkdir react-admin-dashboard
-cd react-admin-dashboard
+`mkdir react-admin-dashboard` <br/>
+`cd react-admin-dashboard`
 
 # Create client (Frontend)
-npx create-react-app client
-cd client
+`npx create-react-app client` <br/>
+`cd client`
 
 # Install client dependencies
-npm install @react-oauth/google react-router-dom axios @headlessui/react
-npm install -D tailwindcss postcss autoprefixer
-npm install @heroicons/react
+`npm install @react-oauth/google react-router-dom axios @headlessui/react` <br/>
+`npm install -D tailwindcss postcss autoprefixer` <br/>
+`npm install @heroicons/react` <br/>
 
 # Initialize Tailwind CSS
-npx tailwindcss init -p
+`npx tailwindcss init -p`
 
 # Create frontend folder structure
-mkdir -p src/components/{auth,dashboard,layouts}
-mkdir -p src/context
-mkdir -p src/services
-mkdir -p src/hooks
-mkdir -p src/utils
-mkdir -p src/assets
+`mkdir -p src/components/{auth,dashboard,layouts}` <br/>
+`mkdir -p src/context` <br/>
+`mkdir -p src/services` <br/>
+`mkdir -p src/hooks` <br/>
+`mkdir -p src/utils` <br/>
+`mkdir -p src/assets`
 
 cd ..
 
 # Create server (Backend)
-mkdir server
-cd server
+`mkdir server` <br/>
+`cd server`
 
 # Initialize package.json
-npm init -y
+`npm init -y`
 
 # Install server dependencies
-npm install express mongoose dotenv cors jsonwebtoken google-auth-library bcryptjs
-npm install -D nodemon
+`npm install express mongoose dotenv cors jsonwebtoken google-auth-library bcryptjs` <br/>
+`npm install -D nodemon`
 
 # Create backend folder structure
-mkdir -p controllers
-mkdir -p middleware
-mkdir -p models
-mkdir -p routes
-mkdir -p config
-mkdir -p utils
+`mkdir -p controllers` <br/>
+`mkdir -p middleware` <br/>
+`mkdir -p models` <br/>
+`mkdir -p routes` <br/>
+`mkdir -p config` <br/>
+`mkdir -p utils`
 
 # Create necessary files
-touch .env
-touch .gitignore
-touch server.js
+`touch .env` <br/>
+`touch .gitignore` <br/>
+`touch server.js`
 
 # Final folder structure will look like this:
 '''
