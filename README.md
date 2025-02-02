@@ -50,7 +50,7 @@ cd ..
 `touch server.js`
 
 # Final folder structure will look like this:
-'''
+'
 react-admin-dashboard/
 │
 ├── client/
@@ -94,4 +94,4 @@ react-admin-dashboard/
     ├── .env
     ├── .gitignore
     └── server.js
-'''
+'
